@@ -1,8 +1,10 @@
-**README for Real-Time Safety Analysis at Worksites**  
-
 # Real-Time Safety Analysis at Worksites  
 
 This project implements a real-time safety monitoring system using fine-tuned and pre-trained YOLO models for object detection. It is designed to enhance workplace safety by detecting and evaluating the use of Personal Protective Equipment (PPE) and monitoring improper mobile phone usage in live video streams.  
+
+## Project Demo
+
+![Demo](media/demo.gif)
 
 ## Features  
 
@@ -59,12 +61,22 @@ This project implements a real-time safety monitoring system using fine-tuned an
 
 1. A live video stream from a webcam is processed frame-by-frame.  
 2. YOLO models detect objects and evaluate compliance with safety protocols.  
-3. A color-coded visual representation of the safety status is displayed in real-time.  
+3. A color-coded visual representation of the safety status is displayed in real-time.
+
+![Detailed Workflow](media/fd11.png)
 
 ## Results  
 
-- **F1-Confidence Curve**: Demonstrates the detection accuracy of fine-tuned YOLO for helmets and jackets.  
-- **Real-Time Dashboard**: Displays bounding boxes, compliance scores, and color-coded indicators.  
+- **F1-Confidence Curve**: Demonstrates the detection accuracy of fine-tuned YOLO for helmets and jackets.
+
+![F1-Confidence Curve of Finetuned YOLOv11](media/F1_curve.png)
+
+  
+- **Real-Time Dashboard**: Displays bounding boxes, compliance scores, and color-coded indicators.
+
+![An Unsafe Scenario](media/20.png)
+
+![A Safe Scenario](media/100.png)
 
 ## Applications  
 
