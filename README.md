@@ -74,9 +74,9 @@ This project implements a real-time safety monitoring system using fine-tuned an
   
 - **Real-Time Dashboard**: Displays bounding boxes, compliance scores, and color-coded indicators.
 
-![An Unsafe Scenario](media/20.png)
+![An Unsafe Scenario](media/20.PNG)
 
-![A Safe Scenario](media/100.png)
+![A Safe Scenario](media/100.PNG)
 
 ## Applications  
 
