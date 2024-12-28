@@ -63,7 +63,7 @@ This project implements a real-time safety monitoring system using fine-tuned an
 2. YOLO models detect objects and evaluate compliance with safety protocols.  
 3. A color-coded visual representation of the safety status is displayed in real-time.
 
-![Detailed Workflow](media/fd11.png)
+![Detailed Workflow](media/fd11.PNG)
 
 ## Results  
 
